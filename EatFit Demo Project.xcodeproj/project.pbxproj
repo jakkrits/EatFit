@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5E00361BBD570D0030AF3D /* CAAnimationGroup + Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00171BBD570D0030AF3D /* CAAnimationGroup + Sequence.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E00371BBD570D0030AF3D /* UIView+ACFrames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00191BBD570D0030AF3D /* UIView+ACFrames.m */; settings = {ASSET_TAGS = (); }; };
+		5B5E00381BBD570D0030AF3D /* DIN Alternate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E001C1BBD570D0030AF3D /* DIN Alternate Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		5B5E00391BBD570D0030AF3D /* DIN Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E001D1BBD570D0030AF3D /* DIN Condensed Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		5B5E003A1BBD570D0030AF3D /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00201BBD570D0030AF3D /* Tween.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E003B1BBD570D0030AF3D /* ACPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00241BBD570D0030AF3D /* ACPageController.m */; settings = {ASSET_TAGS = (); }; };
+		5B5E003C1BBD570D0030AF3D /* UIPageViewController+ACPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00261BBD570D0030AF3D /* UIPageViewController+ACPageController.m */; settings = {ASSET_TAGS = (); }; };
+		5B5E003D1BBD570E0030AF3D /* UIView+TLKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00291BBD570D0030AF3D /* UIView+TLKAppearance.m */; settings = {ASSET_TAGS = (); }; };
+		5B5E003E1BBD570E0030AF3D /* EatFitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E002C1BBD570D0030AF3D /* EatFitViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E003F1BBD570E0030AF3D /* EatFitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E002D1BBD570D0030AF3D /* EatFitViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		5B5E00401BBD570E0030AF3D /* EatFitSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E002F1BBD570D0030AF3D /* EatFitSlideViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E00411BBD570E0030AF3D /* EatFitSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E00301BBD570D0030AF3D /* EatFitSlideViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		5B5E00421BBD570E0030AF3D /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00321BBD570D0030AF3D /* DropView.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E00431BBD570E0030AF3D /* EatFitPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00331BBD570D0030AF3D /* EatFitPageControl.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E00441BBD570E0030AF3D /* RoundChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00341BBD570D0030AF3D /* RoundChartView.swift */; settings = {ASSET_TAGS = (); }; };
+		5B5E00451BBD570E0030AF3D /* SlideLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E00351BBD570D0030AF3D /* SlideLabel.swift */; settings = {ASSET_TAGS = (); }; };
+		5B6683721B94529400416AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6683711B94529400416AC3 /* AppDelegate.swift */; };
+		5B6683771B94529400416AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6683751B94529400416AC3 /* Main.storyboard */; };
+		5B6683791B94529400416AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6683781B94529400416AC3 /* Images.xcassets */; };
+		5B66837C1B94529400416AC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B66837A1B94529400416AC3 /* LaunchScreen.xib */; };
+		5B6683FB1B94603600416AC3 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6683F91B94603600416AC3 /* UIColor+HexColors.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		5B6683FC1B94603600416AC3 /* UILabel + Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6683FA1B94603600416AC3 /* UILabel + Animation.swift */; };
+		5B6683FF1B94604F00416AC3 /* СhartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6683FE1B94604F00416AC3 /* СhartObject.swift */; };
+		5B6684021B94606200416AC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6684011B94606200416AC3 /* ViewController.swift */; };
+		5B6684381B94687700416AC3 /* Objects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6684371B94687700416AC3 /* Objects.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B5E00171BBD570D0030AF3D /* CAAnimationGroup + Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAAnimationGroup + Sequence.swift"; sourceTree = "<group>"; };
+		5B5E00181BBD570D0030AF3D /* UIView+ACFrames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ACFrames.h"; sourceTree = "<group>"; };
+		5B5E00191BBD570D0030AF3D /* UIView+ACFrames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ACFrames.m"; sourceTree = "<group>"; };
+		5B5E001C1BBD570D0030AF3D /* DIN Alternate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Bold.ttf"; sourceTree = "<group>"; };
+		5B5E001D1BBD570D0030AF3D /* DIN Condensed Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Condensed Bold.ttf"; sourceTree = "<group>"; };
+		5B5E00201BBD570D0030AF3D /* Tween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tween.swift; sourceTree = "<group>"; };
+		5B5E00231BBD570D0030AF3D /* ACPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPageController.h; sourceTree = "<group>"; };
+		5B5E00241BBD570D0030AF3D /* ACPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPageController.m; sourceTree = "<group>"; };
+		5B5E00251BBD570D0030AF3D /* UIPageViewController+ACPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+ACPageController.h"; sourceTree = "<group>"; };
+		5B5E00261BBD570D0030AF3D /* UIPageViewController+ACPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+ACPageController.m"; sourceTree = "<group>"; };
+		5B5E00281BBD570D0030AF3D /* UIView+TLKAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TLKAppearance.h"; sourceTree = "<group>"; };
+		5B5E00291BBD570D0030AF3D /* UIView+TLKAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TLKAppearance.m"; sourceTree = "<group>"; };
+		5B5E002C1BBD570D0030AF3D /* EatFitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatFitViewController.swift; sourceTree = "<group>"; };
+		5B5E002D1BBD570D0030AF3D /* EatFitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EatFitViewController.xib; sourceTree = "<group>"; };
+		5B5E002F1BBD570D0030AF3D /* EatFitSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatFitSlideViewController.swift; sourceTree = "<group>"; };
+		5B5E00301BBD570D0030AF3D /* EatFitSlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EatFitSlideViewController.xib; sourceTree = "<group>"; };
+		5B5E00321BBD570D0030AF3D /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		5B5E00331BBD570D0030AF3D /* EatFitPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatFitPageControl.swift; sourceTree = "<group>"; };
+		5B5E00341BBD570D0030AF3D /* RoundChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundChartView.swift; sourceTree = "<group>"; };
+		5B5E00351BBD570D0030AF3D /* SlideLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideLabel.swift; sourceTree = "<group>"; };
+		5B66836C1B94529400416AC3 /* EatFit Demo Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EatFit Demo Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6683701B94529400416AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6683711B94529400416AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B6683761B94529400416AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B6683781B94529400416AC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B66837B1B94529400416AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B6683F71B94603500416AC3 /* DemoProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B6683F81B94603600416AC3 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColors.h"; path = "Categories/UIColor+HexColors.h"; sourceTree = "<group>"; };
+		5B6683F91B94603600416AC3 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColors.m"; path = "Categories/UIColor+HexColors.m"; sourceTree = "<group>"; };
+		5B6683FA1B94603600416AC3 /* UILabel + Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel + Animation.swift"; path = "Categories/UILabel + Animation.swift"; sourceTree = "<group>"; };
+		5B6683FE1B94604F00416AC3 /* СhartObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "СhartObject.swift"; path = "Model/СhartObject.swift"; sourceTree = "<group>"; };
+		5B6684011B94606200416AC3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/ViewController.swift; sourceTree = "<group>"; };
+		5B6684371B94687700416AC3 /* Objects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Objects.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6683691B94529400416AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5E00151BBD570D0030AF3D /* EatFit */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00161BBD570D0030AF3D /* Categories */,
+				5B5E001A1BBD570D0030AF3D /* Resources */,
+				5B5E001E1BBD570D0030AF3D /* Various */,
+				5B5E00211BBD570D0030AF3D /* Vendors */,
+				5B5E002A1BBD570D0030AF3D /* ViewController */,
+				5B5E00311BBD570D0030AF3D /* Views */,
+			);
+			path = EatFit;
+			sourceTree = SOURCE_ROOT;
+		};
+		5B5E00161BBD570D0030AF3D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00171BBD570D0030AF3D /* CAAnimationGroup + Sequence.swift */,
+				5B5E00181BBD570D0030AF3D /* UIView+ACFrames.h */,
+				5B5E00191BBD570D0030AF3D /* UIView+ACFrames.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5B5E001A1BBD570D0030AF3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E001B1BBD570D0030AF3D /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B5E001B1BBD570D0030AF3D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E001C1BBD570D0030AF3D /* DIN Alternate Bold.ttf */,
+				5B5E001D1BBD570D0030AF3D /* DIN Condensed Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5B5E001E1BBD570D0030AF3D /* Various */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E001F1BBD570D0030AF3D /* Tween */,
+			);
+			path = Various;
+			sourceTree = "<group>";
+		};
+		5B5E001F1BBD570D0030AF3D /* Tween */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00201BBD570D0030AF3D /* Tween.swift */,
+			);
+			path = Tween;
+			sourceTree = "<group>";
+		};
+		5B5E00211BBD570D0030AF3D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00221BBD570D0030AF3D /* ACPageController */,
+				5B5E00271BBD570D0030AF3D /* UIView+TLKAppearance */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		5B5E00221BBD570D0030AF3D /* ACPageController */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00231BBD570D0030AF3D /* ACPageController.h */,
+				5B5E00241BBD570D0030AF3D /* ACPageController.m */,
+				5B5E00251BBD570D0030AF3D /* UIPageViewController+ACPageController.h */,
+				5B5E00261BBD570D0030AF3D /* UIPageViewController+ACPageController.m */,
+			);
+			path = ACPageController;
+			sourceTree = "<group>";
+		};
+		5B5E00271BBD570D0030AF3D /* UIView+TLKAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00281BBD570D0030AF3D /* UIView+TLKAppearance.h */,
+				5B5E00291BBD570D0030AF3D /* UIView+TLKAppearance.m */,
+			);
+			path = "UIView+TLKAppearance";
+			sourceTree = "<group>";
+		};
+		5B5E002A1BBD570D0030AF3D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E002B1BBD570D0030AF3D /* PagingViewController */,
+				5B5E002E1BBD570D0030AF3D /* Slide */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5B5E002B1BBD570D0030AF3D /* PagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E002C1BBD570D0030AF3D /* EatFitViewController.swift */,
+				5B5E002D1BBD570D0030AF3D /* EatFitViewController.xib */,
+			);
+			path = PagingViewController;
+			sourceTree = "<group>";
+		};
+		5B5E002E1BBD570D0030AF3D /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E002F1BBD570D0030AF3D /* EatFitSlideViewController.swift */,
+				5B5E00301BBD570D0030AF3D /* EatFitSlideViewController.xib */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		5B5E00311BBD570D0030AF3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00321BBD570D0030AF3D /* DropView.swift */,
+				5B5E00331BBD570D0030AF3D /* EatFitPageControl.swift */,
+				5B5E00341BBD570D0030AF3D /* RoundChartView.swift */,
+				5B5E00351BBD570D0030AF3D /* SlideLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B6683631B94529400416AC3 = {
+			isa = PBXGroup;
+			children = (
+				5B66836E1B94529400416AC3 /* DemoProject */,
+				5B66836D1B94529400416AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B66836D1B94529400416AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B66836C1B94529400416AC3 /* EatFit Demo Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B66836E1B94529400416AC3 /* DemoProject */ = {
+			isa = PBXGroup;
+			children = (
+				5B6684361B94687700416AC3 /* Resources */,
+				5B6684091B9462F000416AC3 /* Vendors */,
+				5B6684001B94605800416AC3 /* ViewController */,
+				5B6683FD1B94603E00416AC3 /* Model */,
+				5B6683F61B94602600416AC3 /* Categories */,
+				5B6683711B94529400416AC3 /* AppDelegate.swift */,
+				5B6683751B94529400416AC3 /* Main.storyboard */,
+				5B6683781B94529400416AC3 /* Images.xcassets */,
+				5B66837A1B94529400416AC3 /* LaunchScreen.xib */,
+				5B66836F1B94529400416AC3 /* Supporting Files */,
+			);
+			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		5B66836F1B94529400416AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B6683701B94529400416AC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B6683F61B94602600416AC3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5B6683F81B94603600416AC3 /* UIColor+HexColors.h */,
+				5B6683F91B94603600416AC3 /* UIColor+HexColors.m */,
+				5B6683FA1B94603600416AC3 /* UILabel + Animation.swift */,
+				5B6683F71B94603500416AC3 /* DemoProject-Bridging-Header.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		5B6683FD1B94603E00416AC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B6683FE1B94604F00416AC3 /* СhartObject.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B6684001B94605800416AC3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B6684011B94606200416AC3 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5B6684091B9462F000416AC3 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E00151BBD570D0030AF3D /* EatFit */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		5B6684361B94687700416AC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B6684371B94687700416AC3 /* Objects.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B66836B1B94529400416AC3 /* EatFit Demo Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B66838B1B94529400416AC3 /* Build configuration list for PBXNativeTarget "EatFit Demo Project" */;
+			buildPhases = (
+				5B6683681B94529400416AC3 /* Sources */,
+				5B6683691B94529400416AC3 /* Frameworks */,
+				5B66836A1B94529400416AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EatFit Demo Project";
+			productName = DemoProject;
+			productReference = 5B66836C1B94529400416AC3 /* EatFit Demo Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6683641B94529400416AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "aleksey chernish";
+				TargetAttributes = {
+					5B66836B1B94529400416AC3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5B6683671B94529400416AC3 /* Build configuration list for PBXProject "EatFit Demo Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6683631B94529400416AC3;
+			productRefGroup = 5B66836D1B94529400416AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B66836B1B94529400416AC3 /* EatFit Demo Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B66836A1B94529400416AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6683771B94529400416AC3 /* Main.storyboard in Resources */,
+				5B6684381B94687700416AC3 /* Objects.plist in Resources */,
+				5B66837C1B94529400416AC3 /* LaunchScreen.xib in Resources */,
+				5B5E00411BBD570E0030AF3D /* EatFitSlideViewController.xib in Resources */,
+				5B5E003F1BBD570E0030AF3D /* EatFitViewController.xib in Resources */,
+				5B6683791B94529400416AC3 /* Images.xcassets in Resources */,
+				5B5E00381BBD570D0030AF3D /* DIN Alternate Bold.ttf in Resources */,
+				5B5E00391BBD570D0030AF3D /* DIN Condensed Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6683681B94529400416AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5E00401BBD570E0030AF3D /* EatFitSlideViewController.swift in Sources */,
+				5B5E00431BBD570E0030AF3D /* EatFitPageControl.swift in Sources */,
+				5B6684021B94606200416AC3 /* ViewController.swift in Sources */,
+				5B5E003E1BBD570E0030AF3D /* EatFitViewController.swift in Sources */,
+				5B5E00441BBD570E0030AF3D /* RoundChartView.swift in Sources */,
+				5B5E00421BBD570E0030AF3D /* DropView.swift in Sources */,
+				5B5E003A1BBD570D0030AF3D /* Tween.swift in Sources */,
+				5B5E003C1BBD570D0030AF3D /* UIPageViewController+ACPageController.m in Sources */,
+				5B6683721B94529400416AC3 /* AppDelegate.swift in Sources */,
+				5B5E00371BBD570D0030AF3D /* UIView+ACFrames.m in Sources */,
+				5B6683FB1B94603600416AC3 /* UIColor+HexColors.m in Sources */,
+				5B5E00451BBD570E0030AF3D /* SlideLabel.swift in Sources */,
+				5B5E00361BBD570D0030AF3D /* CAAnimationGroup + Sequence.swift in Sources */,
+				5B5E003B1BBD570D0030AF3D /* ACPageController.m in Sources */,
+				5B6683FC1B94603600416AC3 /* UILabel + Animation.swift in Sources */,
+				5B6683FF1B94604F00416AC3 /* СhartObject.swift in Sources */,
+				5B5E003D1BBD570E0030AF3D /* UIView+TLKAppearance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B6683751B94529400416AC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6683761B94529400416AC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B66837A1B94529400416AC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B66837B1B94529400416AC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6683891B94529400416AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B66838A1B94529400416AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B66838C1B94529400416AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DemoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YAL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "EatFit Demo Project";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoProject/DemoProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B66838D1B94529400416AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DemoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YAL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "EatFit Demo Project";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoProject/DemoProject-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6683671B94529400416AC3 /* Build configuration list for PBXProject "EatFit Demo Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6683891B94529400416AC3 /* Debug */,
+				5B66838A1B94529400416AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B66838B1B94529400416AC3 /* Build configuration list for PBXNativeTarget "EatFit Demo Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B66838C1B94529400416AC3 /* Debug */,
+				5B66838D1B94529400416AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6683641B94529400416AC3 /* Project object */;
+}
